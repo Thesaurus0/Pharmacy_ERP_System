@@ -15,7 +15,7 @@ namespace Pharmacy_ERP_System
 
         private void btnImportSalesDetailFiles_Click(object sender, RibbonControlEventArgs e)
         {
-
+            new Form_ImportSalesFiles().Show();
         }
     }
 }
