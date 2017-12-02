@@ -29,6 +29,7 @@ namespace Pharmacy_ERP_System
         private void btnBrowse_Click(object sender, RoutedEventArgs e)
         {
             new SalesInfoFilePicker().FileChooseAndSet(fileFullPathTextBox1);
+
         }
     }
 }
